@@ -1,7 +1,6 @@
 body {
   font-family: 'Press Start 2P', cursive;
-  list-style-type: none;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=41407); }
+  list-style-type: none; }
 
 .pokeball {
   max-height: 100%;
@@ -64,10 +63,10 @@ h1 {
   max-height: 200px;
   max-width: 500px;
   opacity: 1;
-  margin-top: 10px;
   position: absolute;
+  margin-top: 10px;
   margin-left: 450px;
-  animation: leaves2 3s; }
+  animation: leaves 2s; }
 
 .trainer {
   max-height: 500px;
@@ -84,7 +83,7 @@ h4 {
   text-align: center;
   font-size: 18px;
   color: #fa0f0f;
-  text-shadow: 3px 2px black;
+  text-shadow: 2px 2px black;
   margin-top: 0px;
   /* border: 4px solid black; 
   background: rgb(250, 15, 15);
@@ -262,30 +261,21 @@ footer {
     transform: translateY(0px); } }
 .slowkingimg:hover {
   animation: bounce 1s infinite;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=41407); }
+  cursor: pointer; }
 
 .hypnoimage:hover {
   animation: bounce 1s infinite;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=41407); }
+  cursor: pointer; }
 
 .lickitung:hover {
   animation: bounce 1s infinite;
-  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=41407); }
+  cursor: pointer; }
 
 @keyframes leaves {
   0% {
     transform: scale(1); }
-  50% {
-    transform: scale(1.2); }
   100% {
-    transform: scale(1.35); } }
-@keyframes leaves2 {
-  0% {
-    transform: scale(1); }
-  50% {
-    transform: scale(1.1); }
-  100% {
-    transform: scale(1.2); } }
+    transform: scale(1.25); } }
 .trainercard {
   position: absolute;
   z-index: 2;

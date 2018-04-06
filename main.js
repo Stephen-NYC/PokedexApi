@@ -1,5 +1,5 @@
 let ul = document.querySelector("ul")
-class MasterSpark {
+class FuyGieri {
 	constructor() {
 		this.all = []
 	}
