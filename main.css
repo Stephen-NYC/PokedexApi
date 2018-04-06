@@ -1,243 +1,210 @@
-body{
-    font-family: 'Press Start 2P', cursive;
-    list-style-type: none;
-}
-.pokeball{
-    max-height: 100%;
-    height: 850px;
-    width: 1540px;
-    max-width: 1540px;
-    text-align: center;
-    opacity: 1;
-    margin-top: 0px;
-    margin-left: -100px;
-    margin-bottom: 0px;
-    position: sticky;
-    z-index: -1;
-}
+body {
+  font-family: 'Press Start 2P', cursive;
+  list-style-type: none; }
 
-.pokeball2{
-    max-height: 100%;
-    height: 850px;
-    width: 1540px;
-    max-width: 1540px;
-    text-align: center;
-    opacity: 1;
-    margin-top: -380px;
-    margin-left: -14px;
-    margin-bottom: 0px;
-    position: sticky;
-    z-index: -2;
+.pokeball {
+  max-height: 100%;
+  height: 850px;
+  width: 1540px;
+  max-width: 1540px;
+  text-align: center;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: -100px;
+  margin-bottom: 0px;
+  position: sticky;
+  z-index: -1; }
 
-}
+.pokeball2 {
+  max-height: 100%;
+  height: 850px;
+  width: 1540px;
+  max-width: 1540px;
+  text-align: center;
+  opacity: 1;
+  margin-top: -380px;
+  margin-left: -14px;
+  margin-bottom: 0px;
+  position: sticky;
+  z-index: -2; }
 
-h3{
-    font-family: 'Press Start 2P', cursive;
-    position: absolute;
-    font-size: 24px;
-    text-align: center;
-    color: white;
-    text-shadow: 3px 3px black;
-    margin-left: 300px;
-    margin-top: 50px;
-}
+h3 {
+  font-family: 'Press Start 2P', cursive;
+  position: absolute;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-left: 300px;
+  margin-top: 50px; }
 
-.title{
-    font-family: 'Press Start 2P', cursive;
-    color:rgb(0, 0, 0);
-    text-shadow: 2px 2px rgb(255, 255, 255);
-    margin-left: 750px;
-    position: absolute;
-    font-size: 24px;
+.title {
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  text-shadow: 2px 2px white;
+  margin-left: 750px;
+  position: absolute;
+  font-size: 24px; }
 
+h1 {
+  background: #fa0f0f;
+  border: black;
+  border-style: solid;
+  border-width: 4px;
+  margin: 0px;
+  opacity: 1;
+  height: 200px;
+  width: 1450px;
+  max-width: 100%; }
 
-}
-h1{
-    background: rgb(250, 15, 15);
-    border: black;
-    border-style: solid;
-    border-width: 4px;
-    margin: 0px;
-    opacity: 1;
-    height: 200px;
-    width: 1450px;
-    max-width: 100%;
-    
-}
+.logo {
+  height: 200px;
+  width: 500px;
+  max-height: 200px;
+  max-width: 500px;
+  opacity: 1;
+  margin-top: 0px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px; }
 
-.logo{
-    height: 200px;
-    width: 500px;
-    max-height: 200px;
-    max-width: 500px;
-    opacity: 1;
-    margin-top: 0px;
-    position: absolute;
-    margin-top: 10px;   
-    margin-left: 10px;
-}
+.trainer {
+  max-height: 500px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 75px;
+  opacity: .9; }
 
-.trainer{
-    max-height: 500px;
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 75px;
-    opacity: .9;
+h4 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-top: 0px;
+  /* border: 4px solid black; 
+  background: rgb(250, 15, 15);
+  width: 1450px;
+  max-width: 1450px;
+  position: absolute;
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  margin-bottom: 0px; */ }
 
-}
+footer {
+  background: #fa0f0f;
+  border: black;
+  border-style: solid;
+  border-width: 4px;
+  height: 100px;
+  width: 1450px;
+  max-width: 100%;
+  z-index: 2;
+  margin-top: 0px; }
 
+#pokemoninfo {
+  border: 3px solid black;
+  padding: 20px 20px 20pz 20px;
+  background-color: #e7d106;
+  opacity: .85;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.171);
+  margin-top: 100px; }
 
-h4{
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    text-shadow: 3px 3px black;
-    margin-top: 0px;
-    /* border: 4px solid black; 
-    background: rgb(250, 15, 15);
-    width: 1450px;
-    max-width: 1450px;
-    position: absolute;
-    padding: 20px 20px 20px 20px;
-    position: fixed;
-    margin-bottom: 0px; */
-}
+#pokemoninfo2 {
+  border: 3px solid black;
+  padding: 20px 20px 20pz 20px;
+  margin-top: 100px;
+  background-color: #ec3838;
+  opacity: .9;
+  margin-left: -100px; }
 
-footer{
-    background: rgb(250, 15, 15);
-    border: black;
-    border-style: solid;
-    border-width: 4px;
-    height: 100px;
-    width: 1450px;
-    max-width: 100%;
-    z-index: 2;
-    margin-top: 0px;
-}
+#pokemoninfo3 {
+  border: 3px solid black;
+  /* padding: 20px 20px 20px 20px; */
+  margin-top: 100px;
+  margin-left: -50px;
+  z-index: 1;
+  background-color: #e674ba;
+  opacity: .9; }
 
-#pokemoninfo{
-    border: 3px solid black;
-    padding: 20px 20px 20pz 20px;
-    background-color: rgb(231, 209, 6);
-    opacity: .85;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.171);
-    margin-top: 100px;
+.row {
+  margin-top: -755px;
+  margin-left: 100px; }
 
-}
-#pokemoninfo2{
-    border: 3px solid black;
-    padding: 20px 20px 20pz 20px;
-    margin-top: 100px;
-    background-color: rgb(236, 56, 56);
-    opacity: .9;
-    margin-left: -100px;
-    
+#name {
+  text-transform: uppercase;
+  font-size: 20px; }
 
-}
-#pokemoninfo3{
-    border: 3px solid black;
-    /* padding: 20px 20px 20px 20px; */
-    margin-top: 100px;
-    margin-left: -50px;
-    z-index: 1;
-    background-color: rgb(230, 116, 186);
-    opacity: .9;
-    
-    
+#name2 {
+  font-size: 20px;
+  text-transform: uppercase; }
 
-}
-.row{
-    margin-top: -755px;
-    margin-left: 100px;
-}
+#name3 {
+  font-size: 20px;
+  text-transform: uppercase; }
 
-.row1{
+.hypnoimage {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  margin-top: 100px; }
 
-}
-#name{
-    text-transform: uppercase;
-    font-size: 20px;
+.poke2 {
+  color: white; }
 
-}
+.abilities2 {
+  color: white; }
 
-#name2{
-    font-size: 20px;
-    text-transform: uppercase;
-}
+.slowkingimg {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 475px;
+  height: 350px; }
 
-#name3{
-    font-size: 20px;
-    text-transform: uppercase;
+.section {
+  margin-left: 100px; }
 
-}
-.hypnoimage{
-    display: block;
-    z-index: 2;
-    position: absolute;
-    margin-top: 100px;
+.lickitung {
+  display: block;
+  z-index: 2;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: -55px; }
 
-}
+.psy {
+  border: 2px solid black;
+  /* border-radius: 4px; */
+  padding: 10px 10px;
+  font-size: 12px;
+  background-color: darkorchid;
+  color: white;
+  z-index: 3;
+  margin-top: 0px;
+  text-shadow: 2px 2px black; }
 
-.poke2{
-    color: white;
-}
+.water {
+  border: 2px solid black;
+  /* border-radius: 4px; */
+  padding: 10px 10px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+  z-index: 3;
+  margin-top: -10px;
+  text-shadow: 2px 2px black; }
 
-.abilities2{
-    color: white;
-}
+.normal {
+  border: 2px solid black;
+  /* border-radius: 4px; */
+  padding: 10px 10px;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.527);
+  color: white;
+  z-index: 3;
+  margin-top: 0px;
+  text-shadow: 2px 2px black;
+  opacity: 1; }
 
-.slowkingimg{
-    display: block;
-    z-index: 2;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 475px;
-    height: 350px;
-}
-.section{
-    margin-left: 100px;
-}
-
-.lickitung{
-    display: block;
-    z-index: 2;
-    position: absolute;
-    margin-top: 100px;
-    margin-left: -55px;
-
-}
-.psy{
-    border: 2px solid black;
-    /* border-radius: 4px; */
-    padding: 10px 10px;
-    font-size: 12px;
-    background-color: darkorchid;
-    color: white;
-    z-index: 3;
-    margin-top: 0px;
-    text-shadow:2px 2px black;
-}
-.water{
-    border: 2px solid black;
-    /* border-radius: 4px; */
-    padding: 10px 10px;
-    font-size: 12px;
-    background-color:blue;
-    color: white;
-    z-index: 3;
-    margin-top: -10px;
-    text-shadow: 2px 2px black;
-}
-.normal{
-    border: 2px solid black;
-    /* border-radius: 4px; */
-    padding: 10px 10px;
-    font-size: 12px;
-    background-color: rgba(0, 0, 0, 0.527);
-    color: white;
-    z-index: 3;
-    margin-top: 0px;
-    text-shadow: 2px 2px black;
-    opacity: 1;
-}
+/*# sourceMappingURL=main.css.map */
