@@ -19,12 +19,12 @@ body{
 .pokeball2{
     max-height: 100%;
     height: 850px;
-    width: 1540px;
+    width: 1440px;
     max-width: 1540px;
     text-align: center;
     opacity: 1;
     margin-top: -380px;
-    margin-left: -14px;
+    // margin-left: -14px;
     margin-bottom: 0px;
     position: sticky;
     z-index: -2;
@@ -40,6 +40,7 @@ h3{
     text-shadow: 3px 3px black;
     margin-left: 300px;
     margin-top: 50px;
+    animation: leaves 3s;
 }
 
 .title{
@@ -75,6 +76,7 @@ h1{
     position: absolute;
     margin-top: 10px;   
     margin-left: 10px;
+    animation: leaves 2s;
 }
 
 .trainer{
@@ -82,7 +84,10 @@ h1{
     position: absolute;
     margin-top: 150px;
     margin-left: 75px;
-    opacity: .9;
+    opacity: 0;
+    animation: fadeIn 4s, leaves 2s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -123,6 +128,7 @@ footer{
     opacity: .85;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.171);
     margin-top: 100px;
+    // animation:  fadeIn2 3s;
 
 }
 #pokemoninfo2{
@@ -176,6 +182,10 @@ footer{
     z-index: 2;
     position: absolute;
     margin-top: 100px;
+    opacity: 1;
+    animation: fadeIn2;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -191,9 +201,14 @@ footer{
     display: block;
     z-index: 2;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 475px;
     height: 350px;
+    opacity: 1;
+    animation:  fadeIn2 3s;
+    // animation: fadeIn;
+    // animation-duration: 3s;
+    // animation-fill-mode: forwards;
 }
 .section{
     margin-left: 100px;
@@ -203,8 +218,12 @@ footer{
     display: block;
     z-index: 2;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 160px;
     margin-left: -55px;
+    opacity: 1;
+    animation: fadeIn2 3s;
+    // animation-duration: 5s;
+    // animation-fill-mode: forwards;
 
 }
 .psy{
@@ -240,4 +259,102 @@ footer{
     margin-top: 0px;
     text-shadow: 2px 2px black;
     opacity: 1;
+}
+
+@keyframes fadeIn2 {
+    0% {
+      opacity: .7;
+    }
+    20% {
+      opacity: .75;
+    }
+  
+    30% {
+      opacity: .8;
+    }
+
+    40% {
+        opacity: .85;
+    }
+  
+    60% {
+      opacity: .90;
+    }
+    75% {
+        opacity: .95;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+@keyframes fadeIn {
+    0% {
+      opacity: .0;
+    }
+    20% {
+      opacity: .0;
+    }
+  
+    30% {
+      opacity: .25;
+    }
+
+    40% {
+        opacity: .45;
+    }
+  
+    60% {
+      opacity: .65;
+    }
+    75% {
+        opacity: .85;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes bounce  {
+      20% {
+          transform: translateY(0px);
+      }
+      40% { 
+          transform: translateY(-50px);
+      }
+      70% {
+          transform: translateY(0px);
+      }
+      90% {
+          transform: translateY(-50px);
+      }
+      100% {
+          transform: translateY(0px);
+      }
+  }
+
+  .slowkingimg:hover{
+      animation: bounce 1s infinite;
+    cursor: pointer;
+  }
+
+  .hypnoimage:hover{
+    animation: bounce 1s infinite;
+    cursor: pointer;
+  }
+
+  .lickitung:hover{
+    animation: bounce 1s infinite;
+    cursor: pointer;   
+  }
+
+@keyframes leaves {
+    0% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.25);
+    }
 }
