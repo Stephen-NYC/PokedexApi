@@ -148,9 +148,10 @@ footer {
 
 .hypnoimage {
   display: block;
+  height: 280px;
   z-index: 2;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 150px;
   opacity: 1;
   animation: fadeIn2;
   animation-duration: 5s;
@@ -166,9 +167,9 @@ footer {
   display: block;
   z-index: 2;
   position: absolute;
-  margin-top: 120px;
-  margin-left: 475px;
-  height: 350px;
+  margin-top: 180px;
+  margin-left: 550px;
+  height: 300px;
   opacity: 1;
   animation: fadeIn2 3s; }
 
@@ -289,7 +290,7 @@ footer {
   position: absolute;
   z-index: 2;
   margin-left: 1000px;
-  margin-top: -250px;
+  margin-top: -150px;
   height: 250px; }
 
 /*# sourceMappingURL=main.css.map */

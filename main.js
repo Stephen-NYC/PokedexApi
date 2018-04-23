@@ -1,12 +1,22 @@
 let ul = document.querySelector("ul")
+
 class FuyGieri {
-	constructor() {
+	constructor(pokemon) {
 		this.all = []
 	}
 	add(pokemon) {
 		this.all.push(pokemon)
 	}
+	get(name){
+		for (let i = 0; i < this.all.length; i++){
+			if(name == this.all[i].name){
+				return this.all[i]
+			}
+		}
+	}
 }
+
+let fuyGieri = new FuyGieri();
 
 class Pokemon {
 	constructor(name, hp, attack, defense, abilities) {
